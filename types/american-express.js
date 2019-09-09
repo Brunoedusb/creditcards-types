@@ -3,7 +3,7 @@
 var Type = require('../type')
 
 module.exports = Type({
-  name: 'American Express',
+  name: 'Amex',
   digits: 15,
   pattern: /^3[47]\d{13}$/,
   eagerPattern: /^3[47]/,
